@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+}
+/* this is my header section */
+header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 90%;
+position: absolute;
+top: 4%;
+padding: 10px;
+}
+
+header div ul{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5%;
+list-style: none;
+}
+header div ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; 
+    font-weight: 500;
+}
+
+ /* my header section ends here  */
+
+/* this is my hero section styles  */
+#hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    }
+    #hero h1{
+        font-size: 35px; 
+        font-weight: 800;
+        color: #fff;
+    }
+    #hero .hero-inner{ 
+        font-size: 20px;
+        color: black;
+       
+    }
+  
+    /* my hero section styles ends here  */
+
+    /* this is my about section styles  */
+    #about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #about .about-inner{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: row;
+        padding: 50px;
+        gap: 3%;
+        text-align: center;
+        width: 100;
+        
+    }
+    #about .about-inner h4{
+        color: #646464;
+        font-size: x-large; 
+        margin: 4%;
+    }
+    #about .about-inner p{
+        color: #646464;
+    }
+ 
+
+    /* my about section styles ends here  */
+    /* this is my services section style  */
+
+#services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
+    background-color: #f8f8f8;
+}
+#services .services-inner{
+    padding: 1% 3% 2% 4%;
+}
+#services .services-inner img{
+    margin: 0 auto;
+    width: 500px;
+    padding:2% 4%
+    
+}
+
+#services .services-inner button{
+    margin: 0 auto;
+    width: max-content;
+    background: #ffa703;
+    font-size: x-large;
+    padding: 1% 3% ;
+    border: none;
+    font-weight: 800; 
+    color: #fff;
+    
+   
+}
+#services .services-inner h4{
+    font-size: 20px;
+    font-weight: 1000;
+    color: #646464;
+    margin-bottom: 3%;
+    
+}
+#service .services-inner p{
+    font-size: larger;
+    font-weight: 500;
+    color: #646464;
+    margin-top: 5%; 
+    padding: 5%;
+    
+}
+
+
+/* my services section style ends here  */
+
+/* this is my testimonial section styles  */
+
+#testimonial{
+    display: flex;
+     justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border: none;
+    margin: 4%;
+    
+
+}
+
+
+
+/* my testimonial section styles end here  */
+
+/* this is my blog section styles  */
+#newsletter{
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    gap: 3%;
+    padding: 3%; 
+    background-color: #ffa703;
+    color: #fff; 
+    
+   
+}
+#newsletter .newsletter .forms{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+#newsletter .forms .name{
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    margin: 0%;
+    border: none;
+    padding: 1% 3%;
+    
+}
+.email{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px;
+    border: none; 
+    padding: 1% 3%; 
+    margin-left: 22%;
+    margin-top: 2px;
+    display: flex;
+
+    
+}
+#newsletter .forms .Subscribe{
+    border-radius: 50px;
+    margin: 0%;
+    border: none;
+    padding: 1% 3%;
+     background-color: black;
+    color: #fff;
+    
+}
+#newsletter .forms .Subscribe:hover{
+    background: rgb(49, 49, 49);
+}
+/* my blog section style ends here   */
+
+/* this is my footer section style */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    background-color: rgb(99, 99, 99);
+}
+footer .footer-inner hr{
+     width: 100%; 
+     border-color: #fff;
+     margin-bottom: 5%;
+
+}
+footer .footer-inner div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: #fff;
+}
+
+
+footer  div ul{
+    display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 1%;
+  text-align: center;
+  list-style: none;
+}
+footer .div ul li {
+     justify-content: center;
+   
+}
+footer ul li a{
+    display: grid;
+    padding: 4px; 
+    gap: 10%;
+    color: rgb(184, 179, 179);
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    font-weight: 400;
+
+}
+footer  span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-block: 2%;
+    color: rgb(184, 179, 179);
+    font-weight: 400;
+    font-size: small;
+    
+}
+
+/* this is my small screen (320px)  */
+
+@media(min-width:320px){
+
+    header div ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: small; 
+        font-weight: 500;
+    }
+
+    #newsletter{
+        font-size: 10px;
+    }
+    #newsletter .newsletter .forms{
+        display: grid;
+        
+    }
+    #newsletter .forms .email{
+        border-top-left-radius: 10px; 
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;  
+       
+    }
+
+    #testimonial .testimonial-inner .testimonial-cards{
+        display: grid;
+        align-items: center;
+        text-align: center;
+    }
+    #testimonial.testimonial-cards h4{
+        font-size: large;
+        padding: 70px;
+        gap: 4%; 
+}
+#testimonial .testimonial-inner h3{
+    font-size: large;
+    color: #646464;
+    padding: 2% 4%;
+}
+
+#hero h1{
+    font-size: 20px; 
+    font-weight: 600;
+    color: #fff;
+}
+#hero .hero-inner{ 
+    font-size: 10px;
+    color: black;
+   
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+}
+#about .about-inner{
+    display: grid;
+}
+#about .about-inner h4{
+    font-size: larger;
+}
+#services{
+    width: 100%;
+}
+#services .services-inner button{
+    font-weight: 200;
+}
+#services .services-inner h4{
+    font-size: small;
+} 
+#services .services-inner img{
+    margin: 0 auto;
+    width: 200px;
+    padding:2% 4%
+    
+} 
+
+ 
+}
+
+
+/* this is the end of my small screen  */
+
+
+/* this is for my ipad screen  */
+
+@media(min-width:768px){
+    header{
+
+    }
+
+
+    #hero .hero-inner h1{
+        font-size: 42px;
+    }
+
+    #hero .hero-inner p{
+        font-size: large;
+    }
+}
+
+
+/* my ipad screen ends here  */
+
+
+
+/* this ipad pro screen  */
+@media(min-width:1024px){
+    
+    header div ul li a{
+       font-size: x-large; 
+        font-weight: 600;
+    }
+    #hero h1{
+        font-size: medium; 
+        font-weight: bold;
+    
+    }
+    #hero .hero-inner h1{
+        font-size: 40px;
+    }
+    #hero .hero-inner p{
+        font-size: xx-large;
+        
+    }
+    #about .about-inner{
+        display: flex;
+    }
+    #about .about-inner h4{
+        font-size: x-large;
+    } 
+    #about .about-inner p{
+        font-size: large;
+    } 
+    #testimonial .testimonial-inner .testimonial-cards{
+        display: flex;
+    
+    }
+    #testimonial.testimonial-cards h4{
+        font-size: larger;
+        padding: 20px;
+        gap: 2%; 
+}
+#testimonial .testimonial-inner h3{
+    font-size: xx-large;
+
+}
+#testimonial .testimonial-inner .testimonial-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    gap: 10%;
+    padding-bottom: 5%;
+   background-color: #f3efef;
+   font-size: larger; 
+   
+}
+#newsletter{
+    font-size: 30px;
+       padding-top: 3%;
+        padding-bottom: 3%;
+       
+    }
+    #newsletter .newsletter .forms{
+        display: flex;
+       justify-content: space-between;
+    }
+    #newsletter .forms .email{
+        border-top-left-radius: 20px; 
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;  
+       
+    }
+    #newsletter .forms .name{
+        border-top-left-radius: 20px; 
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px; 
+       
+    }
+    footer ul li a{
+        display: grid;
+        padding: 4px; 
+        gap: 20%;
+        color: rgb(184, 179, 179);
+        text-decoration: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: x-large;
+        font-weight: 600;
+    
+    }
+    footer  span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding-block: 2%;
+        color: rgb(184, 179, 179);
+        font-weight: 400;
+        font-size: large;
+        
+    }
+    footer .footer-inner hr{
+        width: 200%; 
+        border-color: #fff;
+        margin-bottom: 5%;
+   
+   }
+}
+
